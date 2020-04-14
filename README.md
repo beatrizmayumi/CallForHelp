@@ -1,35 +1,35 @@
 # CallForHelp
 
-O aplicativo CallForHelp visa auxiliar pessoas com deficiência visual a buscarem auxílio no contexto do trabalho, seja na realização de alguma atividade ou na busca de uma informação. O auxílio é solicitado por meio de um botão, e a solicitação é enviada para um grupo de voluntários dispostos a ajudar (cadastrados no aplicativo Microsoft Teams).
+The CallForHelp* application aims to help blind and low vision people to seek help in the context of work, whether in carrying out any activity or searching for information. Aid is requested through a button and the request is sent to a group of volunteers willing to help (registered in the Microsoft Teams application).
 
-O aplicativo foi desenvolvido utilizando a plataforma Xamarin.
+The application was developed using the Xamarin platform.
 
-A comunicação entre o aplicativo e o Microsoft Teams é feita via Logic Apps e a geração de notificação para o usuário por meio de Azure Functions a Azure Notification Hub. 
+Communication between the application and Microsoft Teams is done via Logic Apps and the generation of notification to the user through Azure Functions and Azure Notification Hub.
 
-[Requisitos do Sistema para Desenvolvimento em Xamarin](https://docs.microsoft.com/pt-br/xamarin/cross-platform/get-started/requirements)
+[System Requirements for Xamarin Development](https://docs.microsoft.com/en-us/xamarin/cross-platform/get-started/requirements)
 
-[FCM (Firebase Cloud Messaging)](https://docs.microsoft.com/pt-br/xamarin/android/data-cloud/google-messaging/firebase-cloud-messaging)
+[FCM (Firebase Cloud Messaging)](https://docs.microsoft.com/en-us/xamarin/android/data-cloud/google-messaging/firebase-cloud-messaging)
 
-[Enviar notificações por push para aplicativos Xamarin.Android usando os Hubs de Notificação](https://docs.microsoft.com/pt-br/azure/notification-hubs/xamarin-notification-hubs-push-notifications-android-gcm#create-a-firebase-project-and-enable-firebase-cloud-messaging)
+[Send push notifications to Xamarin.Android apps using Notification Hubs](https://docs.microsoft.com/en-us/azure/notification-hubs/xamarin-notification-hubs-push-notifications-android-gcm#create-a-firebase-project-and-enable-firebase-cloud-messaging)
 
-## Instalação
+## Installation
 
-Faça o clone do repositório, ou o download do projeto:
+Clone the repository, or download the project:
 ```
 git clone https://github.com/beatrizmayumi/CallForHelp
 ```
 
-## Utilização
-No arquivo Constants.cs, substitua \<ENDPOINT> pela ListenConnectionString gerada no seu Notification Hub, e \<NOTIFICATION_HUB_NAME> pelo nome de seu Notification Hub:
+## Usage
+In the Constants.cs file, replace \<ENDPOINT> with the ListenConnectionString generated on your Notification Hub, and \<NOTIFICATION_HUB_NAME> with the name of your Notification Hub:
 
 ```
 public const string ListenConnectionString = "<ENDPOINT>";
 public const string NotificationHubName = "<NOTIFICATION_HUB_NAME>";
 ```
 
-No arquivo google-services.json, substitua os campos com “ ”, com os dados do seu projeto.
+In the google-services.json file, replace the fields with “ ”, with your project data.
 
-Exemplo de campos a serem substituídos:
+Example of fields to be replaced:
 
 ```
 "project_info": {
@@ -43,7 +43,10 @@ Exemplo de campos a serem substituídos:
 ## Authors
 Beatriz Matsui, Caio Melo, José Otavio Quaglio, Nei Lopez
 
-## Licença
+## Licence
 
-MIT
-  
+This extension is licensed under the [MIT License](https://github.com/beatrizmayumi/CallForHelp/blob/master/LICENSE). 
+
+--------------------------------
+* *The winning project of the first Accessibility Hackathon from Microsoft subsidiary in Brazil.
+
