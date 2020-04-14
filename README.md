@@ -48,5 +48,5 @@ Beatriz Matsui, Caio Melo, José Otavio Quaglio, Nei Lopez
 This project is licensed under the [MIT License](https://github.com/beatrizmayumi/CallForHelp/blob/master/LICENSE). 
 
 --------------------------------
-'\*' *The winning project of the first Accessibility Hackathon from Microsoft subsidiary in Brazil.*
+\**The winning project of the first Accessibility Hackathon from Microsoft subsidiary in Brazil.*
 
