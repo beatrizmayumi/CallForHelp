@@ -1,6 +1,6 @@
 # CallForHelp
 
-The CallForHelp* application aims to help blind and low vision people to seek help in the context of work, whether in carrying out any activity or searching for information. Aid is requested through a button and the request is sent to a group of volunteers willing to help (registered in the Microsoft Teams application).
+The *CallForHelp** application aims to help blind and low vision people to seek help in the context of work, whether in carrying out any activity or searching for information. Aid is requested through a button and the request is sent to a group of volunteers willing to help (registered in the Microsoft Teams application).
 
 The application was developed using the Xamarin platform.
 
@@ -45,8 +45,8 @@ Beatriz Matsui, Caio Melo, José Otavio Quaglio, Nei Lopez
 
 ## Licence
 
-This extension is licensed under the [MIT License](https://github.com/beatrizmayumi/CallForHelp/blob/master/LICENSE). 
+This project is licensed under the [MIT License](https://github.com/beatrizmayumi/CallForHelp/blob/master/LICENSE). 
 
 --------------------------------
-* *The winning project of the first Accessibility Hackathon from Microsoft subsidiary in Brazil.
+'\*' *The winning project of the first Accessibility Hackathon from Microsoft subsidiary in Brazil.*
 
